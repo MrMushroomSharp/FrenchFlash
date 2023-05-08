@@ -89,7 +89,7 @@ if game == 'n':
 
     t = threading.Thread(target=StartGame)
     t.start()
-    time.sleep(int(gameTime)*3)
+    time.sleep(int(gameTime)*60)
     print("\n\nYour time is up! Hope you had a fun time! Click enter to leave.\n\n")
     gameRunning = False
     t.join()
